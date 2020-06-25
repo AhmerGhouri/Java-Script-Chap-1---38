@@ -2600,3 +2600,169 @@
 // }
 
 // calcHypotenus();
+
+
+
+
+
+// Task No 9
+
+
+
+// function area(width , height){
+
+//     var A = height * width;
+
+//     document.write(A);
+// }
+
+// area(width = 6, 5);
+
+
+
+
+
+// Task No 10
+
+
+
+// function isPalindrome (s) {
+
+//     var sRev = '';
+
+//     for (var i = s.length ; i > 0 ; i--) {
+
+//         sRev += s[i-1] ;
+
+//     }
+
+//     document.write("String : " + s + "<br>")
+//     document.write("Reverse String : " + sRev + "<br>")
+
+//     if (s === sRev){
+//         document.write("String is Palidrome")
+//     }
+
+//     else{
+
+//         document.write("String is not Palidrome")
+//     }
+
+// }
+
+// isPalindrome(prompt("Enter Your string"))
+
+
+
+// Task No 11
+
+
+
+// function titleCase(str) {
+
+//     var array1 = str.split(' ');
+
+//     var newarray1 = [];
+
+//     for (var x = 0; x < array1.length; x++) {
+
+//         newarray1.push(array1[x].charAt(0).toUpperCase() + array1[x].slice(1));
+
+//     }
+
+//     document.write(str + "<br>")
+//     return newarray1.join(' ');
+// }
+// document.write(titleCase("the quick brown fox"));
+
+
+
+
+// Task No 12
+
+
+
+// function longestWord(str) {
+
+
+//     var array1 = str.match(/\w[a-z]{0,}/gi);
+
+//     var result = array1[0];
+
+//     for (var x = 1; x < array1.length; x++) {
+
+//         if (result.length < array1[x].length) {
+
+//             result = array1[x];
+
+//         }
+
+
+//     }
+
+//     document.write(str + "<br>")
+//     return result;
+// }
+// document.write(longestWord('Web Development Tutorial'));
+
+
+
+
+
+// Task No 13
+
+
+
+// function count(str, letter) {
+    
+//     var letter_Count = 0;
+    
+//     for (var i = 0 ; i < str.length ; i++) {
+    
+//         if (str.charAt(i) == letter) {
+    
+//             letter_Count += 1;
+    
+//         }
+    
+//     }
+//     document.write("Letter : " + letter + "<br>");    
+//     return document.write("Number Of Letter : " + letter_Count);
+// }
+
+// count('JSResourceS.com', 'o');
+
+
+
+
+// Task No 14
+
+
+
+// function calcCircumference(){
+
+//     var r = 2;
+//     var π = 3.142;
+
+//     var circumferenceOfCircle = 2 * π  * r;
+
+//     document.write("The circumference of Cirle is " + circumferenceOfCircle + "<br>")
+
+// }
+
+
+
+// function calcArea(){
+
+//     var r = 2;
+//     r = r * r;
+//     var π = 3.142;
+
+//     var areaOfCircle = π  * r;
+
+//     document.write("The Area of Cirle is " + areaOfCircle + "<br>")
+
+// }
+
+// calcCircumference();
+// calcArea();
